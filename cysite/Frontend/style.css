@@ -1,0 +1,83 @@
+body {
+    background-color: white;
+    margin: 0;
+  }
+  .navbar
+  { padding-top: 20%;
+    margin-top: 10%;
+    display:flex;
+    background-color: #1f1f1f;
+    margin: auto;
+    height: 4vh;
+    margin-top:0;
+    padding-top:0;
+    justify-content:space-between;
+  }
+  .topleft
+  { padding-left:3%;
+    padding-top: 1%;
+    display : flex;
+    width:10%;
+    color: #ffffff;
+    justify-content:space-between;
+  }
+  .home:hover{
+    text-decoration: underline;
+
+
+  }
+  .home
+  {
+    text-decoration: underline;
+  }
+  .aboutus:hover{
+    text-decoration: underline;
+
+  }
+  .topRight{
+   float:right;
+   padding-top:1%;
+   padding-right: 5%;
+  }
+  .loginsignup
+  {padding-left:20%;
+    background-color:  #1f1f1f;
+color: #ffffff;
+text-decoration: none;
+padding-right: 20%;
+padding-top: 10%;
+border-radius: 265px;
+border: 1px solid #FFF;
+border-style: solid;
+padding-bottom: 10%;
+border-color: #ffffff;
+
+}
+.loginsignup:hover
+{
+  background-color:  white;
+  color : black;
+  transition : left 0.5s;
+
+
+}
+
+#particles-js 
+{
+    background-image: url("white.svg");
+    background-color: #1f1f1f;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    height: 96vh;
+}
+.heading {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    border: 1px solid red;
+}
+#mcbkl
+{
+  height : 200vh;
+}
